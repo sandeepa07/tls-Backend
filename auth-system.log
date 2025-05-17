@@ -1,0 +1,34 @@
+2025-05-17T10:38:49.278Z [info]: Server running on port 5000
+2025-05-17T10:40:05.503Z [info]: ::1 - - [17/May/2025:10:40:05 +0000] "GET /api/auth/register HTTP/1.1" 404 156 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-17T10:40:14.957Z [info]: ::1 - - [17/May/2025:10:40:14 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-17T10:40:30.202Z [info]: ::1 - - [17/May/2025:10:40:30 +0000] "GET /api/auth/signup HTTP/1.1" 404 154 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-17T10:41:54.256Z [info]: Server running on port 5000
+2025-05-17T10:51:47.248Z [info]: Server running on port 5000
+2025-05-17T10:52:25.536Z [info]: Server running on port 3000
+2025-05-17T10:53:11.575Z [info]: ::1 - - [17/May/2025:10:53:11 +0000] "POST /api/auth/signup%0A HTTP/1.1" 404 158 "-" "PostmanRuntime/7.43.4"
+2025-05-17T10:53:32.975Z [info]: ::1 - - [17/May/2025:10:53:32 +0000] "POST /api/auth/signup%0A HTTP/1.1" 404 158 "-" "PostmanRuntime/7.43.4"
+2025-05-17T10:55:08.159Z [error]: Signup error: Operation `users.findOne()` buffering timed out after 10000ms
+2025-05-17T10:55:08.180Z [info]: ::1 - - [17/May/2025:10:55:08 +0000] "POST /api/auth/signup HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.4"
+2025-05-17T17:56:24.898Z [info]: Server running on port 3000
+2025-05-17T17:58:56.368Z [info]: Server running on port 3000
+2025-05-17T18:11:10.772Z [info]: Server running on port 3000
+2025-05-17T18:11:56.720Z [info]: ::1 - - [17/May/2025:18:11:56 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-17T18:14:37.997Z [info]: Server running on port 3000
+2025-05-17T18:14:49.372Z [info]: ::1 - - [17/May/2025:18:14:49 +0000] "GET / HTTP/1.1" 200 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-17T18:14:49.454Z [info]: ::1 - - [17/May/2025:18:14:49 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-17T18:23:22.600Z [error]: 500 - Cannot destructure property 'name' of 'req.body' as it is undefined. - /api/auth/signup - POST - ::1
+2025-05-17T18:23:22.624Z [info]: ::1 - - [17/May/2025:18:23:22 +0000] "POST /api/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.43.4"
+2025-05-17T18:24:08.396Z [error]: Signup error: Operation `users.findOne()` buffering timed out after 10000ms
+2025-05-17T18:24:08.397Z [info]: ::1 - - [17/May/2025:18:24:08 +0000] "POST /api/auth/signup HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.4"
+2025-05-17T18:24:37.330Z [error]: Signup error: Operation `users.findOne()` buffering timed out after 10000ms
+2025-05-17T18:24:37.332Z [info]: ::1 - - [17/May/2025:18:24:37 +0000] "POST /api/auth/signup HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.4"
+2025-05-17T18:47:36.672Z [info]: Server running on port 3000
+2025-05-17T18:47:44.833Z [info]: ::1 - - [17/May/2025:18:47:44 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-17T18:50:00.842Z [error]: Signup error: Operation `users.findOne()` buffering timed out after 10000ms
+2025-05-17T18:50:00.845Z [info]: ::1 - - [17/May/2025:18:50:00 +0000] "POST /api/auth/signup HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.4"
+2025-05-17T18:50:53.598Z [error]: Signin error: Operation `users.findOne()` buffering timed out after 10000ms
+2025-05-17T18:50:53.600Z [info]: ::1 - - [17/May/2025:18:50:53 +0000] "POST /api/auth/signin HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.4"
+2025-05-17T18:56:56.231Z [error]: Signin error: Operation `users.findOne()` buffering timed out after 10000ms
+2025-05-17T18:56:56.238Z [info]: ::1 - - [17/May/2025:18:56:56 +0000] "POST /api/auth/signin HTTP/1.1" 500 46 "-" "PostmanRuntime/7.43.4"
+2025-05-17T19:05:12.177Z [info]: Server running on port 3000
+2025-05-17T19:05:20.322Z [info]: ::1 - - [17/May/2025:19:05:20 +0000] "GET / HTTP/1.1" 200 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
